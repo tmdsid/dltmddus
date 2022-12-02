@@ -29,17 +29,17 @@ function changeBackground(col) {
     }
 
 
-function togglePlaying() {
-    if(!song.isPlaying()) {
-        song.play();
-        song.setvolume(0.3);
-        button.html('pause');
-    } else {
-        song.stop();
-        button.html('play');
-    }
-}
+//function togglePlaying() {
+//    if(!song.isPlaying()) {
+//        song.play();
+//        song.setvolume(0.3);
+//        button.html('pause');
+//    } else {
+//        song.stop();
+//        button.html('play');
+//    }
+//}
 
-function loaded() {
-    console.log('loaded');
-}
+// function loaded() {
+//    console.log('loaded');
+// }
