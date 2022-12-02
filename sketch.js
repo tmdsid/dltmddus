@@ -5,7 +5,7 @@ function setup() {
     createCanvas(200,200);
     song = loadSound('afterlike.mp3', loaded);
     button = createButton('play');
-    button.mousePresssed(togglePlaying);
+    button.mousePressed(togglePlaying);
     background(51);
 }
 
